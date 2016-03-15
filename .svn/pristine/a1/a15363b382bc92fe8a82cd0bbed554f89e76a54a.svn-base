@@ -1,0 +1,23 @@
+
+ihttp://www.haoid.cn/post/456
+
+3、修改数据库
+打开：ApplicationCommonConfsystemConfig.php
+配置服务器
+$public_system_db_host = '127.0.0.1';（这个不要修改）
+$public_system_db_name = 'haoid';  //你的数据库名称
+$public_system_db_user = 'haoid';   //你的数据库用户名
+$public_system_db_pwd = 'haoid.cn';  //你的数据库密码
+4、安装完成
+然后把php.ini里面的  max_execution_time  改成500  不然可能采集失败
+---------------------------------------------------------------
+前台地址：http://域名
+后台地址：http://域名/adminc.php
+默认后台账号密码都是admin@qq.com  admin
+亲，前台版权在/Public/eq/3.1/eqShow-3.1.5.js
+预览页版权在/Public/eq/eqShow-3.1.5_view.js
+首页logo在 /Public/css/images/logo.png
+用户页面logo在 /assets/images/logo.png
+编辑页面logo在 /assets/images/logo-white.png
+还有/Application/Home/View/Index/index3_1.html
+还有/Application/Home/View/View/index3_1.html

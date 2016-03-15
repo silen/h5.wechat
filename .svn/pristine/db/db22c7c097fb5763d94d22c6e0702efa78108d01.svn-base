@@ -1,0 +1,3 @@
+[ 2016-03-11T19:12:56+08:00 ] 127.0.0.1 /adminc.php?c=collect_70c&a=collect&cs=885068&dtagid=&tagid=null
+ERR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'eqcode' at row 1
+
